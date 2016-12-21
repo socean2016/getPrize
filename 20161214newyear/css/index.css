@@ -1,0 +1,42 @@
+.container{ min-width:320px; max-width:640px; margin:0 auto;}
+.conbox img{width:100%;}
+.conbox{position:relative; width:100%; padding-top:170.3%; background-image:url(../images/bg.jpg); background-size:100% auto; background-repeat:no-repeat;}
+a,img,button,input,textarea,li{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+@keyframes light{
+	0%{opacity:0;}
+	60%{opacity:1;}
+	70%{opacity:1;}
+	100%{opacity:0;}
+	}
+.prize_box{width:90.625%; position:absolute; padding-top:118.7%; margin:0 auto; top:25%; left:4.7%; background:#fff;}
+.center{position:absolute; left:33.3%; top:33.3%; width:33.3%; height:33.3%;}
+.center img{width:100%; height:100%;padding:4%;box-sizing:border-box;}
+.top_list{width:100%; height:100%; background-position:center; background-size: contain; z-index:2; position:absolute; top:0; left:0px;}
+.top_list li{width:33.3%; position:absolute; height:33.3%;}
+.top_list li img{position:absolute; padding:4%; box-sizing:border-box; left:0; top:0px;}
+
+.prize_list{width:100%; height:100%; background-position:center; background-size: contain; position:absolute; top:0; left:0px;}
+.prize_list li{width:33.3%; position:absolute; height:33.3%;}
+.prize_list li img{position:absolute; padding:4%; box-sizing:border-box; left:0; top:0px;}
+li.p1{top:0px; left:0px;}
+li.p2{top:0px; left:33.3%;}
+li.p3{top:0px; left:66.6%;}
+li.p4{top:33.3%; left:0%;}
+li.p5{top:33.3%; left:66.6%;}
+li.p6{top:66.6%; left:0%;}
+li.p7{top:66.6%; left:33.3%;}
+li.p8{top:66.6%; left:66.6%;}
+.prize_button{top:33.3%; left:33.3%; position:absolute; width:33.3%; height:33.3%;}
+.alert_list{display:none;}
+.alert_prize{width:100%; height:100%; position:absolute; top:0%; left:0%; z-index:5; display:none; background:rgba(0,0,0,.5)}
+.close{width:10%; height:8%; position:absolute; top:10%; right:15%; z-index:10;}
+.alert_prize a{width:70%; position:absolute; top:10%; left:15%;}
+.bling{animation:bling linear 0.5s;}
+@keyframes bling{
+	0%{opacity:0;}
+	49%{opacity:0;}
+	50%{opacity:1;}
+	60%{opacity:1;}
+	100%{opacity:1;}
+	}
+
